@@ -79,3 +79,13 @@ justify-content: space-around;
 .box{
     
 }
+.ring{
+    position: absolute;
+    right: -19%;
+}
+.ring-2{
+    position: absolute;
+    top: 150px;
+    left: -15%;
+
+}
