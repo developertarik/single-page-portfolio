@@ -116,3 +116,37 @@ justify-content: space-around;
     align-content: flex-start;
     justify-content: center;
 }
+.head-contact{
+    font-size: 5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+input{
+    background:gray;
+    width: 300px;
+}
+.submit{
+    text-decoration: underline rgb(53, 167, 129);
+    border: none;
+    color: black;
+    background: black;
+    font-family: inherit;
+    color: white;
+    font-size: large;
+}
