@@ -156,8 +156,19 @@ input{
 }
 input{
     background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
 }
-button{
-    background :none;
-    border: none;
+.submit{
+    background: none;
+}
+.footer{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+.ring-3{
+    position: absolute;
+    left: -15%;
 }
